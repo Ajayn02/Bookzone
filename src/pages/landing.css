@@ -1,0 +1,40 @@
+.a1{
+    background-image: url("https://img.freepik.com/free-photo/realistic-books-shelf-library_23-2151359528.jpg?t=st=1727604029~exp=1727607629~hmac=1df54828c9ccab98950a4959ae069d22c8711230c8326cfb0463f0453540f919&w=996");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px;
+}
+
+.b1{
+    background-color: rgb(93, 104, 224);
+    color: white;
+}
+
+.c1{
+    padding-top: 80px;
+}
+
+@media (max-width:900px) {
+    .c1{
+        padding-top: 50px;
+    }
+  
+}
+
+@media (max-width:650px) {
+    .c1{
+        padding-top: 40px;
+    }
+  
+}
+
+@media (max-width:500px) {
+    .c1{
+        padding-top: 20px;
+    }
+    .a1{
+        padding: 20px;
+    }
+}

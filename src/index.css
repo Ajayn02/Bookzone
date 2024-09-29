@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* body{
+  background-color;:rgb(239, 231, 214)
+} */
+
+.home{
+  padding:50px 50px;
+}
+.tab-div{
+  padding: 50px;
+}
+
+@media (max-width:750px) {
+  .home{
+    padding: 50px 30px;
+  }
+  .tab-div{
+    padding: 30px;
+  }
+}
+@media (max-width:650px) {
+  .home{
+    padding: 50px 20px;
+  }
+  .tab-div{
+    padding: 10px;
+  }
+}
+@media (max-width:500px) {
+  .home{
+    padding: 50px 5px;
+  }
+  .tab-div{
+    padding: 0px;
+  }
+}
